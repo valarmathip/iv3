@@ -1,0 +1,385 @@
+2017-04-21 13:37:36,019 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 13:37:54,580 - IntelliView - INFO - Actual last customer is: 'QA-AUTO-04' and the Expected last customer is: 'QA-AUTO-04'
+2017-04-21 13:38:35,093 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-21 13:38:50,235 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '5'
+2017-04-21 13:39:15,499 - IntelliView - INFO - Device count for hierarchy: 'PETRAINDIA' under customer: 'QA-AUTO-02' is: '3'
+2017-04-21 13:39:55,932 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-21 13:40:21,203 - IntelliView - INFO - Device count for hierarchy: 'PETRACH' under customer: 'QA-AUTO-03' is: '4'
+2017-04-21 13:40:26,332 - IntelliView - INFO - Device count for hierarchy: 'PETRAMP' under customer: 'QA-AUTO-03' is: '2'
+2017-04-21 13:41:06,795 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '20'
+2017-04-21 13:41:32,139 - IntelliView - INFO - Device count for hierarchy: 'PETRAUS' under customer: 'QA-AUTO-04' is: '15'
+2017-04-21 13:41:37,278 - IntelliView - INFO - Device count for hierarchy: 'PETRACA' under customer: 'QA-AUTO-04' is: '10'
+2017-04-21 13:41:42,423 - IntelliView - INFO - Device count for hierarchy: 'PETRASANJOSE' under customer: 'QA-AUTO-04' is: '5'
+2017-04-21 13:42:53,094 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 13:43:54,315 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 13:44:45,016 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 13:45:35,635 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 13:46:31,382 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0014', 'SLC-DEVICE0015', 'SLC-DEVICE0012', 'SLC-DEVICE0013', 'SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-21 13:47:32,734 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 13:48:34,005 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0031', 'SLC - SLC-DEVICE0032', 'SLC - SLC-DEVICE0033', 'SLC - SLC-DEVICE0034', 'SLC - SLC-DEVICE0035', 'SLC - SLC-DEVICE0026', 'SLC - SLC-DEVICE0027', 'SLC - SLC-DEVICE0028', 'SLC - SLC-DEVICE0029', 'SLC - SLC-DEVICE0030', 'SLC - SLC-DEVICE0021', 'SLC - SLC-DEVICE0022', 'SLC - SLC-DEVICE0023', 'SLC - SLC-DEVICE0024', 'SLC - SLC-DEVICE0025', 'SLC - SLC-DEVICE0016', 'SLC - SLC-DEVICE0017', 'SLC - SLC-DEVICE0018', 'SLC - SLC-DEVICE0019', 'SLC - SLC-DEVICE0020']
+2017-04-21 13:48:34,134 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 13:48:34,160 - IntelliView - ERROR - Exception while login is: Message: u'no such element: Unable to locate element: {"method":"name","selector":"username"}\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-21 13:49:24,690 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:21:29,199 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:22:18,570 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:22:18,686 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:22:21,760 - IntelliView - ERROR - Exception while login is: [Errno 111] Connection refused
+2017-04-21 14:22:21,775 - IntelliView - ERROR - Error during logout is: 
+2017-04-21 14:22:57,023 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:23:43,821 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:23:43,993 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:23:47,075 - IntelliView - ERROR - Exception while login is: [Errno 111] Connection refused
+2017-04-21 14:23:47,088 - IntelliView - ERROR - Error during logout is: 
+2017-04-21 14:24:57,819 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:25:45,298 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:25:45,426 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:25:48,502 - IntelliView - ERROR - Exception while login is: [Errno 111] Connection refused
+2017-04-21 14:25:48,515 - IntelliView - ERROR - Error during logout is: 
+2017-04-21 14:32:29,194 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:33:16,872 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:33:17,004 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:33:17,004 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:33:27,243 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:34:59,842 - IntelliView - ERROR - Error during logout is: Message: u'chrome not reachable\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-21 14:34:59,842 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:36:04,694 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:36:51,968 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:36:52,093 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:36:52,093 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:37:02,380 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:40:56,622 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:40:56,622 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:43:41,537 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:44:29,091 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:44:29,216 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:44:29,217 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:44:34,454 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:48:28,812 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:48:28,812 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:52:14,404 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 14:53:02,504 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 14:53:02,623 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 14:53:02,689 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 14:53:07,699 - IntelliView - ERROR - Exception while login is: [Errno 111] Connection refused
+2017-04-21 14:53:07,713 - IntelliView - ERROR - Error during logout is: 
+2017-04-21 15:20:39,746 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:21:27,775 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:21:27,895 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:21:27,895 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:21:27,921 - IntelliView - ERROR - Exception while login is: Message: u'no such element: Unable to locate element: {"method":"name","selector":"username"}\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-21 15:23:34,651 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:23:34,651 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:24:50,393 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:25:37,965 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:25:38,096 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:25:38,096 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:25:41,313 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:29:40,635 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:29:40,635 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:35:47,827 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:36:35,750 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:36:35,914 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:36:35,914 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:36:47,213 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:37:39,195 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:37:39,195 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:38:17,076 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:38:33,651 - IntelliView - ERROR - Customer QA-AUTO-01 is not found
+2017-04-21 15:38:43,711 - IntelliView - ERROR - Customer QA-AUTO-01 is not found
+2017-04-21 15:38:43,711 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:[]
+2017-04-21 15:38:43,864 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:38:43,933 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:38:55,168 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:39:47,254 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:39:47,327 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:41:14,784 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:42:02,962 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:42:03,093 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:42:03,165 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:42:14,423 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:43:06,454 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:43:06,516 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:44:04,745 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:44:53,310 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:44:53,420 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:44:53,491 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:45:01,975 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:45:53,798 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:45:53,866 - IntelliView - INFO - sleeping before taking new test
+2017-04-21 15:48:16,533 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:48:26,051 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:49:19,609 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:50:06,462 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 15:50:06,588 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 15:50:15,104 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 15:51:06,861 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:05:22,459 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:05:32,865 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:06:29,106 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:06:45,776 - IntelliView - INFO - Actual last customer is: 'QA-AUTO-04' and the Expected last customer is: 'QA-AUTO-04'
+2017-04-21 16:07:26,308 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-21 16:07:41,450 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '5'
+2017-04-21 16:08:06,709 - IntelliView - INFO - Device count for hierarchy: 'PETRAINDIA' under customer: 'QA-AUTO-02' is: '3'
+2017-04-21 16:08:47,142 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-21 16:09:12,411 - IntelliView - INFO - Device count for hierarchy: 'PETRACH' under customer: 'QA-AUTO-03' is: '4'
+2017-04-21 16:09:17,550 - IntelliView - INFO - Device count for hierarchy: 'PETRAMP' under customer: 'QA-AUTO-03' is: '2'
+2017-04-21 16:09:57,978 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '20'
+2017-04-21 16:10:23,325 - IntelliView - INFO - Device count for hierarchy: 'PETRAUS' under customer: 'QA-AUTO-04' is: '15'
+2017-04-21 16:10:28,455 - IntelliView - INFO - Device count for hierarchy: 'PETRACA' under customer: 'QA-AUTO-04' is: '10'
+2017-04-21 16:10:33,619 - IntelliView - INFO - Device count for hierarchy: 'PETRASANJOSE' under customer: 'QA-AUTO-04' is: '5'
+2017-04-21 16:11:44,284 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 16:12:45,591 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 16:13:36,247 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 16:14:26,797 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 16:15:22,576 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0014', 'SLC-DEVICE0015', 'SLC-DEVICE0012', 'SLC-DEVICE0013', 'SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-21 16:16:23,967 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 16:17:25,260 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0031', 'SLC - SLC-DEVICE0032', 'SLC - SLC-DEVICE0033', 'SLC - SLC-DEVICE0034', 'SLC - SLC-DEVICE0035', 'SLC - SLC-DEVICE0026', 'SLC - SLC-DEVICE0027', 'SLC - SLC-DEVICE0028', 'SLC - SLC-DEVICE0029', 'SLC - SLC-DEVICE0030', 'SLC - SLC-DEVICE0021', 'SLC - SLC-DEVICE0022', 'SLC - SLC-DEVICE0023', 'SLC - SLC-DEVICE0024', 'SLC - SLC-DEVICE0025', 'SLC - SLC-DEVICE0016', 'SLC - SLC-DEVICE0017', 'SLC - SLC-DEVICE0018', 'SLC - SLC-DEVICE0019', 'SLC - SLC-DEVICE0020']
+2017-04-21 16:17:25,388 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:17:39,305 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:21:33,535 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:44:56,631 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:45:49,323 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:51:21,619 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:51:38,152 - IntelliView - ERROR - Customer QA-AUTO-01 is not found
+2017-04-21 16:51:38,379 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:51:52,715 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:52:44,369 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 16:54:04,978 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 16:54:57,516 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:04:02,696 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:05:20,705 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:18:29,361 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:19:47,353 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:21:43,053 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:23:00,582 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:30:49,690 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:31:18,196 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:33:00,316 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:33:27,546 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 17:55:44,880 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 17:56:12,449 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:01:56,623 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:02:59,972 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:05:36,755 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:06:39,720 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:08:06,881 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:11:06,189 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:15:08,329 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:18:07,920 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:24:19,211 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:31:12,042 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:42:45,868 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 18:43:03,421 - IntelliView - INFO - Actual last customer is: 'QA-AUTO-04' and the Expected last customer is: 'QA-AUTO-04'
+2017-04-21 18:43:43,990 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-21 18:43:59,168 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '5'
+2017-04-21 18:44:24,465 - IntelliView - INFO - Device count for hierarchy: 'PETRAINDIA' under customer: 'QA-AUTO-02' is: '3'
+2017-04-21 18:45:04,885 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-21 18:45:30,205 - IntelliView - INFO - Device count for hierarchy: 'PETRACH' under customer: 'QA-AUTO-03' is: '4'
+2017-04-21 18:45:35,345 - IntelliView - INFO - Device count for hierarchy: 'PETRAMP' under customer: 'QA-AUTO-03' is: '2'
+2017-04-21 18:46:15,745 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '20'
+2017-04-21 18:46:41,066 - IntelliView - INFO - Device count for hierarchy: 'PETRAUS' under customer: 'QA-AUTO-04' is: '15'
+2017-04-21 18:46:46,192 - IntelliView - INFO - Device count for hierarchy: 'PETRACA' under customer: 'QA-AUTO-04' is: '10'
+2017-04-21 18:46:51,322 - IntelliView - INFO - Device count for hierarchy: 'PETRASANJOSE' under customer: 'QA-AUTO-04' is: '5'
+2017-04-21 18:48:02,065 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-21 18:49:03,383 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 18:49:54,004 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 18:50:44,703 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-21 18:51:40,614 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0014', 'SLC-DEVICE0015', 'SLC-DEVICE0012', 'SLC-DEVICE0013', 'SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-21 18:52:41,872 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-21 18:53:43,225 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0031', 'SLC - SLC-DEVICE0032', 'SLC - SLC-DEVICE0033', 'SLC - SLC-DEVICE0034', 'SLC - SLC-DEVICE0035', 'SLC - SLC-DEVICE0026', 'SLC - SLC-DEVICE0027', 'SLC - SLC-DEVICE0028', 'SLC - SLC-DEVICE0029', 'SLC - SLC-DEVICE0030', 'SLC - SLC-DEVICE0021', 'SLC - SLC-DEVICE0022', 'SLC - SLC-DEVICE0023', 'SLC - SLC-DEVICE0024', 'SLC - SLC-DEVICE0025', 'SLC - SLC-DEVICE0016', 'SLC - SLC-DEVICE0017', 'SLC - SLC-DEVICE0018', 'SLC - SLC-DEVICE0019', 'SLC - SLC-DEVICE0020']
+2017-04-21 18:53:43,285 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-21 18:53:51,893 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-21 19:00:44,411 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 14:45:45,971 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 14:52:42,471 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 14:56:33,595 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 14:56:33,616 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-24 14:57:27,545 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 14:57:27,567 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-24 14:59:14,743 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 14:59:14,764 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-24 15:00:35,603 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 15:01:30,077 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 15:34:08,750 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 15:35:03,093 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 15:47:25,360 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 15:48:19,030 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 15:49:10,947 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 15:50:03,102 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 16:13:48,402 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 16:14:16,666 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 16:15:03,367 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 16:15:55,582 - IntelliView - INFO - TCC ID not found for device: 'SLC - SLC-DEVICE0004' as expected
+2017-04-24 16:15:55,718 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 16:19:27,253 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 16:28:05,633 - IntelliView - INFO - TCC ID not found for device: 'SLC - SLC-DEVICE0004' as expected
+2017-04-24 16:28:05,770 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 16:35:32,185 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 16:35:49,812 - IntelliView - ERROR - Actual last customer and the expected last customer is mismatched
+2017-04-24 16:36:05,291 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-24 16:36:20,608 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '24'
+2017-04-24 16:36:36,438 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-24 16:37:17,190 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '20'
+2017-04-24 16:38:28,793 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 16:39:14,626 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-24 16:40:06,089 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0006', 'SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 16:40:51,888 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 16:41:37,752 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-24 16:42:23,755 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0010', 'SLC - SLC-DEVICE0011']
+2017-04-24 16:42:23,886 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 16:47:02,024 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 16:47:55,984 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0006', 'SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009']
+2017-04-24 16:47:56,120 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 17:05:42,821 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 17:06:41,896 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0014', 'SLC-DEVICE0015', 'SLC-DEVICE0012', 'SLC-DEVICE0013', 'SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-24 17:06:42,028 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 17:07:17,970 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 17:08:21,156 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 17:08:21,332 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 17:09:46,723 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 17:10:35,054 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004']
+2017-04-24 17:10:35,178 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 17:11:34,513 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 17:11:51,071 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-24 17:11:51,210 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 18:54:10,317 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 19:02:48,740 - IntelliView - INFO - TCC ID not found for device: 'SLC - SLC-DEVICE0004' as expected
+2017-04-24 19:02:48,845 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-24 19:58:31,741 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-24 19:58:49,787 - IntelliView - ERROR - Actual last customer and the expected last customer is mismatched
+2017-04-24 19:59:05,336 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-24 19:59:20,718 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '24'
+2017-04-24 19:59:36,139 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-24 20:00:17,078 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '20'
+2017-04-24 20:01:28,783 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 20:02:14,658 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-24 20:03:06,125 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0006', 'SLC-DEVICE0007', 'SLC-DEVICE0008', 'SLC-DEVICE0009', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 20:03:51,966 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-24 20:04:38,113 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-24 20:05:24,032 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0010', 'SLC - SLC-DEVICE0011']
+2017-04-24 20:05:24,229 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 13:40:42,829 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 13:49:21,823 - IntelliView - INFO - TCC ID not found for device: 'SLC - SLC-DEVICE0004' as expected
+2017-04-25 13:49:21,954 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:24:40,686 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:24:40,708 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-25 14:46:18,007 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:46:26,275 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:48:52,672 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:48:59,828 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:50:00,700 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:50:13,074 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:50:44,051 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:50:56,107 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:52:54,987 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:53:08,137 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:54:03,791 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:54:16,067 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 14:58:31,523 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 14:58:46,909 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:01:33,173 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:01:45,535 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:02:37,598 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:02:49,336 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:31:01,770 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:31:25,813 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:43:16,770 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:43:29,034 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:44:04,216 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:44:16,448 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:46:01,860 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:46:26,173 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:48:43,844 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:49:27,999 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 15:50:22,411 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:50:28,786 - IntelliView - ERROR - Error during logout is: Message: u'chrome not reachable\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-25 15:50:42,571 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:50:48,961 - IntelliView - ERROR - Error during logout is: Message: u'chrome not reachable\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-25 15:50:59,584 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 15:51:43,250 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 16:30:31,824 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 16:30:31,844 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-25 16:31:00,590 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 16:31:55,705 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 16:41:26,920 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 16:42:11,974 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 17:00:06,702 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 17:00:50,963 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 17:44:05,871 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 17:44:05,896 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-25 17:46:01,481 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 17:46:15,308 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 17:55:39,959 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 17:56:03,722 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 17:58:40,720 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 17:59:24,511 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 18:05:13,522 - IntelliView - ERROR - Exception while login is: Message: u'no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-25 18:05:13,539 - IntelliView - ERROR - Error during logout is: Message: u'no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-25 18:12:13,885 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 18:13:00,030 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 18:13:22,005 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 18:15:30,833 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 18:29:56,816 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 18:30:41,551 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 18:34:13,659 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 18:37:02,606 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 19:54:16,525 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 19:54:16,549 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-25 19:55:14,970 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 19:55:28,385 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 19:56:43,992 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 19:56:56,446 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 19:59:11,028 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 19:59:23,662 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 20:01:53,610 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 20:04:53,464 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-25 20:07:35,120 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-25 20:09:44,637 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 16:14:00,672 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 16:14:45,373 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 16:25:38,188 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 16:25:51,242 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 16:38:42,371 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 16:39:05,592 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 17:01:36,430 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 17:02:21,269 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 17:03:24,479 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 17:07:07,474 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 18:18:34,885 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 18:18:57,433 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 18:20:31,477 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 18:20:54,035 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 18:38:16,519 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 18:38:39,596 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 18:41:27,260 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 18:41:50,083 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 19:01:38,840 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 19:02:22,448 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 19:03:36,964 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 19:04:20,534 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-26 19:15:00,245 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-26 19:18:41,480 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-27 12:14:13,801 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-27 12:15:50,886 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-27 12:16:41,209 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-27 12:16:58,400 - IntelliView - INFO - Actual last customer is: 'QA-AUTO-04' and the Expected last customer is: 'QA-AUTO-04'
+2017-04-27 12:17:38,896 - IntelliView - INFO - Device count for customer: 'QA-AUTO-01' is: '4'
+2017-04-27 12:17:54,034 - IntelliView - INFO - Device count for customer: 'QA-AUTO-02' is: '5'
+2017-04-27 12:18:34,472 - IntelliView - INFO - Device count for customer: 'QA-AUTO-03' is: '6'
+2017-04-27 12:19:14,897 - IntelliView - INFO - Device count for customer: 'QA-AUTO-04' is: '21'
+2017-04-27 12:20:00,405 - IntelliView - INFO - Device list under customer: QA-AUTO-01 is:['SLC-DEVICE0001', 'SLC-DEVICE0002', 'SLC-DEVICE0003', 'SLC-DEVICE0004', 'SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-27 12:21:01,869 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0036', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-27 12:21:47,323 - IntelliView - INFO - Device list under customer: 'QA-AUTO-02' and hierarchy level 1 is: ['SLC-DEVICE0010', 'SLC-DEVICE0011']
+2017-04-27 12:22:32,853 - IntelliView - INFO - Device list under customer: 'QA-AUTO-03' and hierarchy level 2 is: ['SLC-DEVICE0005', 'SLC-DEVICE0006']
+2017-04-27 12:23:34,296 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC-DEVICE0005', 'SLC-DEVICE0006', 'SLC-DEVICE0010', 'SLC-DEVICE0011', 'SLC-DEVICE0031', 'SLC-DEVICE0032', 'SLC-DEVICE0033', 'SLC-DEVICE0034', 'SLC-DEVICE0035', 'SLC-DEVICE0036', 'SLC-DEVICE0026', 'SLC-DEVICE0027', 'SLC-DEVICE0028', 'SLC-DEVICE0029', 'SLC-DEVICE0030', 'SLC-DEVICE0021', 'SLC-DEVICE0022', 'SLC-DEVICE0023', 'SLC-DEVICE0024', 'SLC-DEVICE0025', 'SLC-DEVICE0016', 'SLC-DEVICE0017', 'SLC-DEVICE0018', 'SLC-DEVICE0019', 'SLC-DEVICE0020']
+2017-04-27 12:24:35,682 - IntelliView - INFO - Device list under customer: 'QA-AUTO-04' and hierarchy level 3 is: ['SLC - SLC-DEVICE0005', 'SLC - SLC-DEVICE0006', 'SLC - SLC-DEVICE0010', 'SLC - SLC-DEVICE0011', 'SLC - SLC-DEVICE0031', 'SLC - SLC-DEVICE0032', 'SLC - SLC-DEVICE0033', 'SLC - SLC-DEVICE0034', 'SLC - SLC-DEVICE0035', 'SLC - SLC-DEVICE0036', 'SLC - SLC-DEVICE0026', 'SLC - SLC-DEVICE0027', 'SLC - SLC-DEVICE0028', 'SLC - SLC-DEVICE0029', 'SLC - SLC-DEVICE0030', 'SLC - SLC-DEVICE0021', 'SLC - SLC-DEVICE0022', 'SLC - SLC-DEVICE0023', 'SLC - SLC-DEVICE0024', 'SLC - SLC-DEVICE0025', 'SLC - SLC-DEVICE0016', 'SLC - SLC-DEVICE0017', 'SLC - SLC-DEVICE0018', 'SLC - SLC-DEVICE0019', 'SLC - SLC-DEVICE0020']
+2017-04-27 12:24:35,798 - IntelliView - INFO - Successfully logged out from IV3
+2017-04-27 12:29:19,397 - IntelliView - ERROR - Exception while login is: Message: u'no such element: Unable to locate element: {"method":"name","selector":"username"}\n  (Session info: chrome=58.0.3029.68)\n  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 3.13.0-32-generic x86_64)' 
+2017-04-27 12:32:50,721 - IntelliView - ERROR - Error during logout is: list index out of range
+2017-04-27 13:37:19,218 - IntelliView - INFO - Successfully logged into the IV3 UI
+2017-04-27 13:37:37,018 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-27 13:37:52,194 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-27 13:38:07,306 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-27 13:38:22,449 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-27 13:38:37,562 - IntelliView - ERROR - No customers are found, so exiting
+2017-04-27 13:39:43,417 - IntelliView - INFO - Successfully logged out from IV3

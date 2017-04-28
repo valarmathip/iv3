@@ -6,6 +6,7 @@ import sys
 import time
 import logging
 
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -37,9 +38,8 @@ class Iv3BaseClass:
         self.password = password
 	
     def login(self):
-	"""
-	To login into the iv3 UI with correct username and password.
-	"""
+	
+        """ To login into the iv3 UI with correct username and password"""
     
 	self.browser = webdriver.Chrome()
         self.browser.maximize_window()
@@ -62,9 +62,8 @@ class Iv3BaseClass:
 	    LOGGER.info("Successfully logged into the IV3 UI")
 
     def navigate_to_lighting_dashboard(self):
-        """
-	To navigate to the lighting dashboard of iv3.
-	"""
+        
+        """ To navigate to the lighting dashboard of iv3"""
 
         WebDriverWait(self.browser,30).until(EC.visibility_of_element_located(
 					(By.LINK_TEXT, "DASHBOARD")))
@@ -76,9 +75,8 @@ class Iv3BaseClass:
 	time.sleep(5)
 
     def navigate_to_lighting_diagnostic(self):
-        """
-	To navigate to the lighting diagnostic page of iv3.
-	"""
+        
+        """ To navigate to the lighting diagnostic page of iv3"""
 
         WebDriverWait(self.browser,30).until(EC.visibility_of_element_located(
 					(By.LINK_TEXT, "DIAGNOSTIC")))
@@ -90,9 +88,8 @@ class Iv3BaseClass:
 	time.sleep(5)
 
     def get_customer_list(self):
-	"""
-	To get the list of all the available customer under user.
-	"""
+	
+	""" To get the list of all the available customer under user """
 
  	cusElementList = self.browser.find_elements_by_xpath(
 				"//*[@data-hierarchy-type='CUSTOMER']")
@@ -104,10 +101,9 @@ class Iv3BaseClass:
             sys.exit(0)
 
     def expand_and_collapse_customer_name(self, customerName):
-	"""
-	To expand and collapse the tree structure when required
-	for the given customer.
-	"""
+
+	""" To expand and collapse the tree structure when
+	required for the given customer"""
 
 	cusElementList = self.get_customer_list()
 	for cusElement in cusElementList:
@@ -121,9 +117,8 @@ class Iv3BaseClass:
 	    LOGGER.error("Customer %s is not found" % customerName)
 
     def get_device_list(self, customerName):
-	"""
-	To get the list of all devices under the specified customer.
-	"""
+
+	""" To get the list of all devices under the specified customer."""
         
         # Navigate to the Lighting Dashboard
         self.navigate_to_lighting_dashboard()	
@@ -141,9 +136,8 @@ class Iv3BaseClass:
         return actualDevList
  
     def get_hierarchy_levels(self, hierarchyNames):
-	"""
-	To expand the hierarchy level for all the hierarchies.
-	"""
+	
+	""" To expand the hierarchy level for all the hierarchies"""
 
 	for hierarchyName in hierarchyNames:
 	    hierElementList = self.browser.find_elements_by_xpath(
@@ -157,9 +151,8 @@ class Iv3BaseClass:
 
     def get_devices_under_customer_and_hierarchy(self, customerName,
 					hierarchyNames, default = None):
-	"""
-	To get the devices available under the hierarchy.
-	"""
+	
+	""" To get the devices available under the hierarchy"""
 
 	# Navigate to the Lighting Dashboard
         self.navigate_to_lighting_dashboard()
@@ -255,9 +248,8 @@ class Iv3BaseClass:
 	return device_count_hierarchy
 
     def hover_over_device_name(self, deviceName):
-	"""
-	To hove over the device name.
-	"""
+
+	""" To hove over the device name"""
 
 	eleToHoverOver = self.browser.find_element_by_link_text(deviceName)
 	hoverOver = ActionChains(self.browser).move_to_element(eleToHoverOver)
@@ -359,26 +351,17 @@ class Iv3BaseClass:
 	    		"//span[@data-action='reset-search']").click()
 	    return actualDeviceName
 
-	elif searchOption == 'INVALID':
+	else:
 	    searchElement = self.browser.find_element_by_class_name('results')
 	    actualSearchResult = searchElement.text
 	    self.browser.find_element_by_xpath(
                         "//span[@data-action='reset-search']").click()
 	    return actualSearchResult
 
-	#elif searchOption == 'PATTERN':
-	#    searchElement = self.browser.find_element_by_xpath(
-        #		"//*[@data-hierarchy-type='DEVICE'][@class='selected']")
-	#    actualDevice = searchElement.text
-	#    #searchElement = 
-	#    return actualDevice
-	else:
-	    LOGGER.error("Search option not provided")
-
     def logout(self):
-	"""
-	To logged out from th IV3 UI.
-	"""
+	
+	""" To logged out from th IV3 UI"""
+
 	try:
  	    logoutElement = self.browser.find_elements_by_xpath(
 				"//*[@id='App']/div[1]/div[2]/a")

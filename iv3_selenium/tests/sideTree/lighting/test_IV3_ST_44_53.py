@@ -78,6 +78,34 @@ class TestSideTreeSearchFilterClass(TestIv3CommonClass):
 	self.verify_search_result(SEARCH_STRING, EXPECTED_DEVICE_NAME,
                         SEARCH_OPTION)
 
+    def test_search_with_customer_name(self):
+	"""
+	Test Case ID: IV-ST-SRCH-45
+	Description: Side Tree- Lighting Dashboard - Search 
+		     Search for a various "Customer Name"
+	Expected Output: IV 3.0 Should Display "NO RESULTS FOUND"
+	"""
+
+	SEARCH_OPTION = 'CUSTOMER'
+	SEARCH_STRING = 'QA-AUTO-01'
+	EXPECTED_SEARCH_RESULT = 'NO RESULTS FOUND'
+	self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
+                        SEARCH_OPTION)
+
+    def test_search_with_hierarchy_name(self):
+	"""
+	Test Case ID: IV-ST-SRCH-46
+	Description: Side Tree- Lighting Dashboard - Search
+                     Search for a various "Hierarchy Name"
+	Expected Output: IV 3.0 Should Display "NO RESULTS FOUND"
+	"""
+
+	SEARCH_OPTION = 'HIERARCHY'
+	SEARCH_STRING = 'PETRAINDIA'
+	EXPECTED_SEARCH_RESULT = 'NO RESULTS FOUND'
+        self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
+                        SEARCH_OPTION)
+	
     def test_seach_device_with_serial_number(self):
 	"""
 	Test case ID: IV-ST-SRCH-47
@@ -181,6 +209,34 @@ class TestSideTreeSearchFilterClass(TestIv3CommonClass):
 	SEARCH_STRING = '11020B61'
 	EXPECTED_DEVICE_NAME = 'SLC-DEVICE0031'
 	self.verify_search_result(SEARCH_STRING, EXPECTED_DEVICE_NAME,
+                        SEARCH_OPTION)
+
+    def test_search_with_longitude(self):
+	"""
+	Test Case ID: IV-ST-SRCH-50
+	Description:  Side Tree- Lighting Dashboard - Search
+		      Search for a Longitude in various hierarchies
+	Expected Output: IV 3.0 Should Display "NO RESULTS FOUND".
+	"""
+	
+	SEARCH_OPTION = 'LONGITUDE'
+	SEARCH_STRING = '121.9561785'
+	EXPECTED_SEARCH_RESULT = 'NO RESULTS FOUND'
+        self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
+                        SEARCH_OPTION)
+
+    def test_search_with_latitude(self):
+	"""
+	Test Case ID: IV-ST-SRCH-51
+	Description:  Side Tree- Lighting Dashboard - Search
+		      Search for a Latitude in various hierarchies
+	Expected Output: IV 3.0 Should Display "NO RESULTS FOUND".
+	"""
+	
+	SEARCH_OPTION = 'LATITUDE'
+	SEARCH_STRING = '13.07859468'
+	EXPECTED_SEARCH_RESULT = 'NO RESULTS FOUND'
+        self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
 
     def test_search_for_invalid_device(self):

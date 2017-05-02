@@ -7,7 +7,7 @@ from nose.tools import eq_, assert_in
 
 
 IV3_URL = 'http://10.6.3.56'
-#IV3_URL = 'http://a8af04780297a11e7aec506cfb63a5af-414812701.us-west-2.elb.amazonaws.com/'
+#IV3_URL = 'http://a8371895c2ca211e7aec506cfb63a5af-2068201699.us-west-2.elb.amazonaws.com'
 USERNAME = 'jamaica'
 PASSWORD = 'superuser'
 BASE_CLASS = Iv3BaseClass(IV3_URL, USERNAME, PASSWORD)

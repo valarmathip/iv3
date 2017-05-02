@@ -235,7 +235,7 @@ class Iv3BaseClass:
 					"//*[@data-hierarchy-type='HIERARCHY']")
             if hierElementList:
                 for hierElement in hierElementList:
-                    if hierarchy_name in hierElement.text:
+                    if hierarchyName in hierElement.text:
 			count = hierElement.text.split("(")[1].split(")")[0]
 			LOGGER.info("Device count for hierarchy: '%s' under customer:"
 				    " '%s' is: '%s'" % (hierarchyName, customerName, count))

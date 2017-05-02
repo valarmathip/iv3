@@ -288,12 +288,12 @@ class TestSideTreeSearchFilterClass(TestIv3CommonClass):
                         SEARCH_OPTION)
 
 	SEARCH_STRING = '700F7G55'
-	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0020'
+	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0005'
 	self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
 
 	SEARCH_STRING = '700F6F66'
-	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0020'
+	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0011'
 	self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
 
@@ -309,12 +309,12 @@ class TestSideTreeSearchFilterClass(TestIv3CommonClass):
                         SEARCH_OPTION)
         
 	SEARCH_STRING = '0101010199998888'
-	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0020'
+	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0005'
         self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
         
 	SEARCH_STRING = '0101010177778888111'
-	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0020'
+	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0011'
         self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
         
@@ -330,7 +330,7 @@ class TestSideTreeSearchFilterClass(TestIv3CommonClass):
                         SEARCH_OPTION)
 
 	SEARCH_STRING = '1003'
-	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0020'
+	EXPECTED_SEARCH_RESULT = 'SLC-DEVICE0005'
         self.verify_search_result(SEARCH_STRING, EXPECTED_SEARCH_RESULT,
                         SEARCH_OPTION)
 

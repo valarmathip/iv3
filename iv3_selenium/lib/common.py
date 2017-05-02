@@ -308,15 +308,12 @@ class Iv3BaseClass:
 	    cusElementList = self.get_customer_list()
 	    cusName = cusElementList[0].text
 	    actualCustomer = cusName.split("(")[0].strip()
-	    print "cus name is", actualCustomer
 	    actualSearchResult['CUSTOMER_NAME'] = str(actualCustomer)
 
 	    # Look for the hierarchy name in the search result
 	    hierElement = self.browser.find_elements_by_xpath(
                         "//*[@data-hierarchy-type='HIERARCHY']")
-	    print "hierarchylist", hierElement
 	    if hierElement:
-	        print hierElement[0].text
 	        actualSearchResult['HIERARCHY_NAMES'] = str(hierElement[0].text).split('-')[0]
             else:
 		actualSearchResult['HIERARCHY_NAMES'] = hierElement
@@ -328,7 +325,7 @@ class Iv3BaseClass:
 
 	    return actualSearchResult
 
-    def search_for_string(self, searchString, searchOption):
+    def search_for_string1(self, searchString, searchOption):
 	"""
 	To search for the given string in side tree.
 	"""
@@ -350,6 +347,44 @@ class Iv3BaseClass:
 	    self.browser.find_element_by_xpath(
 	    		"//span[@data-action='reset-search']").click()
 	    return actualDeviceName
+
+	else:
+	    searchElement = self.browser.find_element_by_class_name('results')
+	    actualSearchResult = searchElement.text
+	    self.browser.find_element_by_xpath(
+                        "//span[@data-action='reset-search']").click()
+	    return actualSearchResult
+
+    def search_for_string(self, searchString, searchOption, searchPattern):
+	"""
+	To search for the given string in side tree.
+	"""
+
+	# Navigate to Lighting Dashboard
+	self.navigate_to_lighting_dashboard()
+	
+	searchElement = self.browser.find_element_by_xpath(
+			"//input[@placeholder='Search / Filter']")
+	searchElement.send_keys(searchString)
+	searchElement.send_keys(Keys.ENTER)
+ 	time.sleep(5)
+        actualSearchResult = {}
+	
+	if searchOption == 'DEVICE':
+	    searchDevElement = self.browser.find_elements_by_xpath(
+                                  "//*[@data-hierarchy-type='DEVICE'][@class='selected']")
+	    searchResult = searchDevElement[0].text
+	    actualDeviceName = searchResult.split(' ')[2]
+	    actualSearchResult['result_device'] = str(actualDeviceName)
+            
+            if searchPattern:
+		resultElement = self.browser.find_element_by_class_name('total')
+	    else:
+	        resultElement = self.browser.find_element_by_class_name('results')
+	    actualSearchResult['result_count'] = str(resultElement.text)
+	    self.browser.find_element_by_xpath(
+	    		"//span[@data-action='reset-search']").click()
+	    return actualSearchResult
 
 	else:
 	    searchElement = self.browser.find_element_by_class_name('results')

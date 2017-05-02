@@ -119,10 +119,20 @@ class TestIv3CommonClass:
 				"Expected and Actual last transaction date"
                                                 "mismatched for device: '%s'" % deviceName)
 
-    def verify_search_result(self, searchString, expectedResult, searchOption):
+    def verify_search_result(self, searchString, expectedResult, searchOption,
+			searchPattern = None):
 	"""
 	To verify the search result with the expected result.
 	"""
 
-	actaulSearchResult = BASE_CLASS.search_for_string(searchString, searchOption)
-	eq_(expectedResult, actaulSearchResult, "Expected output not shown in the search result")	
+	actaulSearchResult = BASE_CLASS.search_for_string(searchString, searchOption, searchPattern)
+	if searchOption == 'DEVICE':
+	    for k, v in actaulSearchResult.iteritems():
+		eq_(expectedResult[k], actaulSearchResult[k],
+		    "Expected search result: '%s' is mismatched with the "
+		    "Actual search result: '%s'" % (
+		    expectedResult[k], actaulSearchResult[k]))
+	else:
+ 	    eq_(expectedResult, actaulSearchResult, "Expected search result:'%s' is mismatched"
+				" with the actual search result: '%s'" % (
+				expectedResult, actaulSearchResult))	

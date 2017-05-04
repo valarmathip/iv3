@@ -82,7 +82,9 @@ class TestIv3CommonClass:
 	actualToolTipInfo = BASE_CLASS.get_tool_tip_info(customerName, deviceName,
 				lightingPage, hierarchyNames)
 	actualToolTipDict = {}
-	keyList = ['Serial Number', 'PLC Node ID', 'TCC ID', 'Product Family', 'Dim Level',
+	#keyList = ['Serial Number', 'PLC Node ID', 'TCC ID', 'Product Family', 'Dim Level',
+        #		   'Latitude', 'Longitude', 'Location', 'Zip Code', 'Pole ID']
+	keyList = ['Serial Number', 'PLC Node ID', 'TCC ID', 'Product Family',
 		   'Latitude', 'Longitude', 'Location', 'Zip Code', 'Pole ID']
 	
 	for key in keyList:
@@ -126,6 +128,7 @@ class TestIv3CommonClass:
 	"""
 
 	actaulSearchResult = BASE_CLASS.search_for_string(searchString, searchOption, searchPattern)
+
 	if searchOption == 'DEVICE':
 	    for k, v in actaulSearchResult.iteritems():
 		eq_(expectedResult[k], actaulSearchResult[k],

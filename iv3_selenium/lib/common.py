@@ -5,7 +5,7 @@ Python module to test the IV3 UI using selenium.
 import sys
 import time
 import logging
-
+import datetime
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -21,7 +21,7 @@ LOGGER = logging.getLogger("IntelliView")
 LOGGER.setLevel(logging.DEBUG)
 
 # create the logging file handler
-fh = logging.FileHandler("iv3.log")
+fh = logging.FileHandler("logs/iv3_%s.log" % str(datetime.datetime.now()))
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
@@ -248,8 +248,9 @@ class Iv3BaseClass:
 	return device_count_hierarchy
 
     def hover_over_device_name(self, deviceName):
-
-	""" To hove over the device name"""
+	"""
+	To hove over the device name.
+	"""
 
 	eleToHoverOver = self.browser.find_element_by_link_text(deviceName)
 	hoverOver = ActionChains(self.browser).move_to_element(eleToHoverOver)
@@ -393,6 +394,21 @@ class Iv3BaseClass:
                         "//span[@data-action='reset-search']").click()
 	    return actualSearchResult
 
+    def click_device(self, customerName, deviceName):
+	"""
+	To click the required device to check for the device detils.
+	"""
+	# Navigate to lighting dashboard
+	self.navigate_to_lighting_dashboard()
+
+	# Expand the customer tree
+	self.expand_and_collapse_customer_name(customerName)
+	
+	# Click on the specified device name
+	devElement = self.browser.find_element_by_link_text(deviceName)
+	devElement.click()
+	time.sleep(5)
+	
     def logout(self):
 	
 	""" To logged out from th IV3 UI"""
